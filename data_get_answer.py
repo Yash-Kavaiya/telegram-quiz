@@ -1,4 +1,3 @@
-
 import pandas as pd
 import google.generativeai as genai
 import os
@@ -7,7 +6,7 @@ import time
 print("Starting the answer generation pipeline...")
 
 # Set up the API key
-genai.configure(api_key=os.environ['GEMINI_API_KEY'])
+genai.configure(api_key="AIzaSyA6fWaxSWrMot4KyRIfI_qRZoA1NYnohC8")
 
 # Initialize the model
 model = genai.GenerativeModel('gemini-pro')
